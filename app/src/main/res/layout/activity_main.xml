@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FirstFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/linear_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linear_layout"/>
+            <Button
+                android:id="@+id/constraint_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/constraint_layout"/>
+            <Button
+                android:id="@+id/coordinator_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coordinator_layout"/>
+            <Button
+                android:id="@+id/frame_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frame_layout"/>
+            <Button
+                android:id="@+id/grid_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grid_layout"/>
+            <Button
+                android:id="@+id/relative_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/relative_layout"/>
+            <Button
+                android:id="@+id/scrollview_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scrollview_layout"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="390dp"
+                android:layout_height="344dp"
+                android:text="Era uma vez, em uma pequena vila chamada Encantado, vivia um jovem chamado Keller. Keller era conhecido por sua curiosidade insaciável e seu desejo de descobrir os segredos do mundo ao seu redor.
+
+Um dia, enquanto explorava a floresta próxima, Keller encontrou um antigo livro de feitiços. O livro estava coberto de poeira e parecia não ter sido aberto há séculos. Intrigado, Keller começou a ler e descobriu que o livro continha encantamentos poderosos que poderiam transformar a vida de qualquer pessoa.
+
+Decidido a testar um dos feitiços, Keller escolheu um encantamento que prometia trazer alegria e prosperidade à sua vila. Ele recitou as palavras mágicas e, de repente, a vila foi envolvida por uma luz brilhante. As colheitas começaram a crescer mais rápido, os rios ficaram mais limpos e os animais da floresta se tornaram mais amigáveis.
+
+A notícia sobre os poderes de Keller se espalhou rapidamente, e pessoas de vilas vizinhas começaram a visitá-lo em busca de ajuda. Keller, com seu coração bondoso, usou os encantamentos para ajudar todos que podia. Ele se tornou um herói local, conhecido como “Keller, o Encantador”.
+
+Mas com grande poder vem grande responsabilidade. Keller percebeu que precisava usar seus poderes com sabedoria para não causar desequilíbrios na natureza. Ele decidiu ensinar os segredos do livro apenas para aqueles que demonstrassem um coração puro e um desejo genuíno de ajudar os outros.
+
+E assim, a vila de Encantado prosperou sob a orientação de Keller, que continuou a explorar os mistérios do mundo, sempre em busca de novas formas de trazer felicidade e harmonia para todos ao seu redor." />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
